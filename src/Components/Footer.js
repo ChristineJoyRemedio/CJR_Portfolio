@@ -21,14 +21,14 @@ class Footer extends Component {
           <Fade bottom>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
-
+              <center>CJRemedio's  LinkedIn | Insta Art | Insta Photographs | github</center>
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+                <li>&copy; Copyright 2021 Christine Joy Remedio</li>
                 <li>
-                  Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
-                  </a>
+                  Designed with{" "}
+                  
+                    ReactJS
+                  
                 </li>
               </ul>
             </div>

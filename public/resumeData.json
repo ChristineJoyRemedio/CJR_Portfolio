@@ -1,184 +1,349 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "name": "Christine Joy Remedio",
+    "description": "Front-End Web Designer and Developer | Graphic/Digital Artist - Based in New Zealand",
+    "image": "CJRProfilePic.jpg",
+    "bio": "Have variety of experiences and skills especially in related to Digital/Technology and Arts. Able to learn fast, adapt and get things done. Can go along with people, is creative, energetic, confident, reliable, passionate and dedicated to work. ",
+    "contactmessage": "Contact me!",
+    "email": "remediochristinejoy@gmail.com",
+    "phone": "0223633935",
+    "github": "https://github.com/christinejoyremedio",
+    "linkedin": "https://www.linkedin.com/in/christinejoyremedio/",
+    "project1": "https://cjnetflixclone.web.app",
+    "project2": "https://cjairbnbclone.vercel.app/",
+    "project3": "https://cjspotifyclone.web.app/",
+    "address": {
+      "country": "Auckland, New Zealand"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "cjremedio-portfolio.web.app",
+    "resumedownload": "https://drive.google.com/file/d/1zXTvDT22cDv2Ok35HhGsM7DtBPYE7ha9/view?usp=sharing",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/christinejoyremedio",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name": "instagram Art",
+        "url": "https://instagram.com/avellynenavesh/",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
+        "name": "instagram Photography",
+        "url": "https://instagram.com/cj_remedio/",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/christinejoyremedio",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": "Years of Experience",
+    "education": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "University of San Carlos - Talamban Campus",
+        "degree": "Bachelor of Science in Information and Communications Technology",
+        "graduated": "March 2018",
+        "description": "Topics Covered:"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Floral Muzik NZ ",
+        "title": "Freelance – Web Designer",
+        "years": "March 2021 - June2021",
+        "description": "Redesign current website || Deliver a more modern feature on the website || Problem solve and meet employer’s requests"
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Lavon Enterprises and Ventures, Cebu, Philippines",
+        "title": "Freelance - Web Developer, Front-End and Graphic Designer",
+        "years": "May 2014 - December 2016",
+        "description": "Constant communication with the employer in the business to develop and deploy contents – and ensuring clear establishment of what can be created within the timeframe. || Respond to any problems and issues in regards to development || Creating a website using standard HTML/CSS practices. || Develop illustrations, logos and other designs using software or by hand."
+      },
+      {
+        "company": "99Designs and small companies online",
+        "title": "Graphic Designer",
+        "years": "2014-2017",
+        "description": "Create Logos and Banners."
+      },
+      {
+        "company": "Real Kids Early Learning Centre, AKL, NZ",
+        "title": "Teacher Assistant || *Worked as their Admin and IT support at the same time.",
+        "years": "April 08, 2019 - August 6, 2021",
+        "description": "Engage in respectful and collaborative professional relationships. || Demonstrate commitment to appropriate professional values. || Show initiative that contributes to effective teaching and learning. || Support teachers to provide a stimulating, challenging and supportive learning environment that promotes learning and success for all children."
+      },
+      {
+        "company": "Nixfilm",
+        "title": "Freelance – Film Production: Photo Editor, Cinematographer & Photographer",
+        "years": "2015-2016",
+        "description": "Document Events through film and photography || Enhance Photos || Coordinate with the Head."
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Python",
-        "level":"60%"
+        "name": "Front-End",
+        "level": "40%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name": "Web Development",
+        "level": "40%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "name": "ReactJs",
+        "level": "40%"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "Graphic Design",
+        "level": "90%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name": "Film Production & Cinematography",
+        "level": "40%"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name": "Photography & Photo Editing",
+        "level": "80%"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name": "Teacher/Tutor",
+        "level": "60%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "CJ Netflix Clone",
+        "category": "React JS",
+        "image": "01.jpg",
+        "url": "https://cjnetflixclone.web.app"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "CJ Airbnb Clone",
+        "category": "React JS",
+        "image": "04.jpg",
+        "url": "https://cjairbnbclone.vercel.app/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "CJ Spotify Clone",
+        "category": "React JS",
+        "image": "02.jpg",
+        "url": "https://cjspotifyclone.web.app"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Floral Muzik NZ",
+        "category": "Wordpress",
+        "image": "floralmuzik.jpg",
+        "url": "https://floralmuzik.nz"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Expense Tracker React Study App",
+        "category": "React JS",
+        "image": "03.jpg",
+        "url": "https://cjremedio-expensetracker.web.app/"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Web-Based Property Management System",
+        "category": "Codeigniter",
+        "image": "codeigniter_proj1.jpg",
+        "url": "https://github.com/ChristineJoyRemedio/Web-Based-Property-Management-System"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Stepping Stone Web-App",
+        "category": "HTML | CSS | Javascript",
+        "image": "steppingstone.jpg",
+        "url": "https://github.com/ChristineJoyRemedio/SteppingStone-WebApp"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Y101FM Web Design (Web Design)",
+        "category": "Adobe Photoshop",
+        "image": "3.jpg",
+        "url": "https://github.com/ChristineJoyRemedio/Graphic-Designs-and-Layouts/blob/master/Web%20Designs/web%20log%20in.jpg"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Y101FM (Mobile Design)",
+        "category": "Adobe Photoshop",
+        "image": "2.jpg",
+        "url": "https://github.com/ChristineJoyRemedio/Graphic-Designs-and-Layouts/blob/master/Mobile%20Designs/y101trafficAPP-sample1.jpg"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Lavon Web App",
+        "category": "HTML | CSS | Javascript",
+        "image": "lavonsite2.jpg",
+        "url": "https://lavonent.webs.com/"
+      }
+    ]
+  },
+  "portfolio2": {
+    "projects": [
+      {
+        "title": "SwissDev Logo",
+        "category": "Graphic Design Logo",
+        "image": "6.jpg",
+        "url": ""
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Rockstar Logo",
+        "category": "Graphic Design Logo",
+        "image": "5.jpg",
+        "url": ""
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Space & Hand Restobar Logo",
+        "category": "Graphic Design Logo",
+        "image": "4.jpg",
+        "url": ""
+      },
+      {
+        "title": "Lavon Logo",
+        "category": "Graphic Design Logo",
+        "image": "3.png",
+        "url": ""
+      },
+      {
+        "title": "Desh Logo",
+        "category": "Graphic Design Logo",
+        "image": "2.png",
+        "url": ""
+      },
+      {
+        "title": "Guecks Logo",
+        "category": "Graphic Design Logo",
+        "image": "2.jpg",
+        "url": ""
+      },
+      {
+        "title": "CJ's Busy Box",
+        "category": "Graphic Design Logo",
+        "image": "1.jpg",
+        "url": ""
+      },
+      {
+        "title": "Catherine Sorono Logo",
+        "category": "Graphic Design Logo",
+        "image": "22.png",
+        "url": ""
+      },
+      {
+        "title": "Double Horn Logo",
+        "category": "Graphic Design Logo",
+        "image": "23.jpg",
+        "url": ""
+      },
+      {
+        "title": "gigbuddy Logo",
+        "category": "Graphic Design Logo",
+        "image": "24.png",
+        "url": ""
+      },
+      {
+        "title": "The Pods",
+        "category": "Graphic Design Logo",
+        "image": "25.jpg",
+        "url": ""
+      },
+      {
+        "title": "Wally & Cathy Adventures Logo",
+        "category": "Graphic Design Logo",
+        "image": "26.png",
+        "url": ""
+      },
+      {
+        "title": "Wee Care Children's Dentistry",
+        "category": "Graphic Design Logo",
+        "image": "27.png",
+        "url": ""
+      }
+    ]
+  },
+  "portfolio3": {
+    "projects": [
+      {
+        "title": "",
+        "category": "Digital Art",
+        "image": "6.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Digital Art",
+        "image": "22.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "23.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "17.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "16.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "18.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "19.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "20.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "9.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "10.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "7.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "13.png",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "8.jpg",
+        "url": ""
+      },
+      {
+        "title": "",
+        "category": "Graphic Design Logo",
+        "image": "14.jpg",
+        "url": ""
       }
     ]
   }

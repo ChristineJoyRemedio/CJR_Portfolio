@@ -6,8 +6,11 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
+    const project1 = this.props.data.project1;
+    const project2 = this.props.data.project2;
+    const project3 = this.props.data.project3;
     const github = this.props.data.github;
+    const linkedin = this.props.data.linkedin;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
@@ -55,29 +58,55 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
-
-        <div className="row banner">
-          <div className="banner-text">
-            <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
-            </Fade>
-            <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
-            </Fade>
-            <hr />
-            <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
-                </a>
-              </ul>
-            </Fade>
+        <Fade clear>
+          <div className="row banner">
+            <div className="banner-text">
+              <Fade bottom>
+                <h1 className="responsive-headline">{name}</h1>
+              </Fade>
+              <Fade bottom duration={1200}>
+                <h3>{description}.</h3>
+              </Fade>
+              <hr />
+              <Fade bottom duration={2000}>
+                <ul className="header__button">
+                  <a
+                    href={project1}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button btn project-btn"
+                  >
+                    <i></i>Project #1
+                  </a>
+                  <a
+                    href={project2}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button btn project-btn"
+                  >
+                    <i></i>Project #2
+                  </a>
+                  <a
+                    href={project3}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="button btn project-btn"
+                  >
+                    <i></i>Project #3
+                  </a>
+                </ul>
+                <div className="header__button-social">
+                  <a href={github} target="_blank" rel="noreferrer">
+                    <i className="fa fa-github"></i> Github
+                  </a>
+                  <a href={linkedin} target="_blank" rel="noreferrer">
+                    <i className="fa fa-linkedin"></i> LinkedIn
+                  </a>
+                </div>
+              </Fade>
+            </div>
           </div>
-        </div>
-
+        </Fade>
         <p className="scrolldown">
           <a className="smoothscroll" href="#about">
             <i className="icon-down-circle"></i>

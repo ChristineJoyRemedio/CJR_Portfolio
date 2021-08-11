@@ -20,10 +20,30 @@ class Resume extends Component {
         <div key={education.school}>
           <h3>{education.school}</h3>
           <p className="info">
-            {education.degree} <span>&bull;</span>
+            {education.degree} <span>•</span>
             <em className="date">{education.graduated}</em>
           </p>
           <p>{education.description}</p>
+          <li>ICT Fundamentals</li>
+          <li>Advanced Programming A & B</li>
+          <li>Software Application</li>
+          <li>Web Page Design </li>
+          <li>Introduction to Computer Science & Programming</li>
+          <li>Multimedia Basics w/ Image Processing</li>
+          <li>Multimedia Production</li>
+          <li>Lab Technician’s Course</li>
+          <li>Database Systems I & II</li>
+          <li>Data Communication & Networking</li>
+          <li>Quality Assurance</li>
+          <li>Network Management & Security</li>
+          <li>Professional Ethics for ICT</li>
+          <li>Web Application Development</li>
+          <li>Capstone Proposal & Project </li>
+          <li>UX Design</li>
+          <li>Web Technologies</li>
+          <li>Human Computer Interaction</li>
+          <li>Introduction to Object Oriented Technology</li>
+          <li>Motion Graphics and Visual Effects</li>
         </div>
       );
     });
@@ -81,24 +101,6 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">{work}</div>
-          </div>
-        </Slide>
-
-        <Slide left duration={1300}>
-          <div className="row skill">
-            <div className="three columns header-col">
-              <h1>
-                <span>Skills</span>
-              </h1>
-            </div>
-
-            <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              <div className="bars">
-                <ul className="skills">{skills}</ul>
-              </div>
-            </div>
           </div>
         </Slide>
       </section>
