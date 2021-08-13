@@ -1,17 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
-let id = 0;
-class Portfolio extends Component {
-  render() {
-    if (!this.props.data) return <p>Please try reloading the page</p>;
-
-    const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = "images/portfolio/" + projects.image;
-
+const Portfolio = ({ data }) => {
+  if (data) {
+    var projects = data.projects.map(function (projects) {
+      var projectImage = "images/portfolio/" + projects.image;
       return (
-        <div key={id++} className="portfolio__container">
+        <div key={projects.title} className="portfolio__container">
           <div className="project__container">
             <div className="project__img">
               <Zmage alt={projects.title} src={projectImage} />
@@ -39,28 +35,26 @@ class Portfolio extends Component {
                 </a>
               </div>
             </div>
-            <br />
           </div>
         </div>
       );
     });
-
-    return (
-      <section id="portfolio">
-        <Fade left duration={8000} distance="40px">
-          <div className="">
-            <div className="">
-              <h1>
-                Check Out Some of My Web/Mobile Frontend Dev and Design Works.
-              </h1>
-
-              <div id="portfolio-wrapper1">{projects}</div>
-            </div>
-          </div>
-        </Fade>
-      </section>
-    );
   }
-}
+
+  return (
+    <section id="portfolio">
+      <Fade left duration={1000} distance="40px">
+        <div className="">
+          <div className="project__header">
+            <h1>
+              Check Out Some of My Web/Mobile Frontend Dev and Design Works.
+            </h1>
+            <div>{projects}</div>
+          </div>
+        </div>
+      </Fade>
+    </section>
+  );
+};
 
 export default Portfolio;

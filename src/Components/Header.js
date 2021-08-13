@@ -5,12 +5,18 @@ import Fade from "react-reveal";
 class Header extends Component {
   render() {
     if (!this.props.data) return null;
-
+    const networks = this.props.data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+          <a href={network.url} target="_blank" rel="noreferrer">
+            <i className={network.className}></i>
+          </a>
+        </li>
+      );
+    });
     const project1 = this.props.data.project1;
     const project2 = this.props.data.project2;
     const project3 = this.props.data.project3;
-    const github = this.props.data.github;
-    const linkedin = this.props.data.linkedin;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
@@ -47,7 +53,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Projects
               </a>
             </li>
 
@@ -58,10 +64,10 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
-        <Fade clear>
+        <Fade clear duration={1200}>
           <div className="row banner">
             <div className="banner-text">
-              <Fade bottom>
+              <Fade bottom duration={1200}>
                 <h1 className="responsive-headline">{name}</h1>
               </Fade>
               <Fade bottom duration={1200}>
@@ -76,7 +82,7 @@ class Header extends Component {
                     rel="noreferrer"
                     className="button btn project-btn"
                   >
-                    <i></i>Project #1
+                    Project #1
                   </a>
                   <a
                     href={project2}
@@ -84,7 +90,7 @@ class Header extends Component {
                     rel="noreferrer"
                     className="button btn project-btn"
                   >
-                    <i></i>Project #2
+                    Project #2
                   </a>
                   <a
                     href={project3}
@@ -92,17 +98,11 @@ class Header extends Component {
                     rel="noreferrer"
                     className="button btn project-btn"
                   >
-                    <i></i>Project #3
+                    Project #3
                   </a>
                 </ul>
-                <div className="header__button-social">
-                  <a href={github} target="_blank" rel="noreferrer">
-                    <i className="fa fa-github"></i> Github
-                  </a>
-                  <a href={linkedin} target="_blank" rel="noreferrer">
-                    <i className="fa fa-linkedin"></i> LinkedIn
-                  </a>
-                </div>
+
+                <ul className="header__button-social">{networks}</ul>
               </Fade>
             </div>
           </div>

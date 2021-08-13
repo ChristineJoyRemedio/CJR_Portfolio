@@ -11,7 +11,7 @@
     "linkedin": "https://www.linkedin.com/in/christinejoyremedio/",
     "project1": "https://cjnetflixclone.web.app",
     "project2": "https://cjairbnbclone.vercel.app/",
-    "project3": "https://cjspotifyclone.web.app/",
+    "project3": "https://cjamazonclone.vercel.app/",
     "address": {
       "country": "Auckland, New Zealand"
     },
@@ -126,6 +126,12 @@
         "category": "React JS",
         "image": "04.jpg",
         "url": "https://cjairbnbclone.vercel.app/"
+      },
+      {
+        "title": "CJ Amazon Clone",
+        "category": "React JS",
+        "image": "05.jpg",
+        "url": "https://cjamazonclone.vercel.app/"
       },
       {
         "title": "CJ Spotify Clone",

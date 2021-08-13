@@ -66,6 +66,7 @@ header .banner {
   justify-content: center;
   gap: 30px;
 }
+
 .header__button-social {
   padding: 10px;
   display: flex;
@@ -73,23 +74,43 @@ header .banner {
   margin: auto;
   justify-content: center;
   gap: 30px;
-
-  width: 230px;
+  width: auto;
   letter-spacing: 5px;
+  font-size: 30px;
 }
+
+.header__button-social i {
+  color: rgb(227, 217, 230);
+}
+.header__button-social i:hover {
+  color: #1abc9c;
+}
+
 header .banner-text {
   width: 100%;
 }
-header .banner-text h1 {
-  font: 90px/1.1em "opensans-bold", sans-serif;
+.header__name {
+  font: 80px/1.1em "Segoe UI", sans-serif;
   color: #fff;
-  letter-spacing: -2px;
+  letter-spacing: 2px;
   margin: 0 auto 18px auto;
+  text-transform: uppercase;
+  display: inline;
+  letter-spacing: 2px;
+}
+header .banner-text h1 {
+  font: 60px/1em "Segoe UI", sans-serif;
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 0 auto 18px auto;
+  text-transform: uppercase;
+  display: inline;
+  letter-spacing: 2px;
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
   color: #ddd;
-  margin: 0 auto;
+  margin: 20px auto;
   width: 70%;
 }
 header .banner-text h3 span,
@@ -471,19 +492,17 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 .portfolio__container {
-  display: flex;
-  flex-grow: inherit;
+  display: grid;
+  position: relative;
   height: auto;
   padding: 10px;
   margin-bottom: 20px;
   object-fit: contain;
   height: auto;
-
   grid-column: 2;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  flex-wrap: wrap;
 }
 .project__container {
   height: auto;
@@ -492,12 +511,12 @@ ul#nav li.current a {
   border-radius: 30px;
   width: 600px;
   align-items: center;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(18, 18, 19);
   justify-content: center;
   border-radius: 30px;
-  box-shadow: 0px 0px 30px 0px rgba(238, 238, 238, 0.25);
   margin-top: 20px;
 }
+
 .project__img {
   height: fit-content;
   overflow: hidden;
@@ -518,13 +537,13 @@ ul#nav li.current a {
 }
 
 .project__container:hover {
-  box-shadow: 0px 0px 30px 0px rgba(195, 0, 255, 0.514);
+  box-shadow: 0px 0px 30px 0px rgba(225, 139, 252, 0.514);
 }
 
 .project__title {
   padding: 10px;
   max-width: auto;
-  height: 100px;
+  height: 130px;
   align-items: center;
   object-fit: contain;
   border-radius: 30px;
@@ -565,7 +584,14 @@ ul#nav li.current a {
   width: 350px;
   object-fit: contain;
 }
-
+.project__header h1 {
+  font: 15px/24px "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #95a3a3;
+}
 .project__title p {
   margin-bottom: 0;
 }
@@ -592,14 +618,6 @@ ul#nav li.current a {
   padding-top: 90px;
   padding-bottom: auto;
 }
-#portfolio h1 {
-  font: 15px/24px "opensans-semibold", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 48px;
-  color: #95a3a3;
-}
 
 #portfolio2 {
   background: #ebeeee;
@@ -616,30 +634,6 @@ ul#nav li.current a {
   color: #95a3a3;
 }
 
-.da__container {
-  display: flex;
-  background-color: blue;
-}
-.da__row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.da__column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.da__img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-.da__img:hover {
-  opacity: 1;
-}
 #portfolio3 {
   background: #ebeeee;
   padding-top: 90px;
@@ -657,13 +651,6 @@ ul#nav li.current a {
 }
 
 /* Portfolio Content */
-#portfolio-wrapper1 .columns {
-  object-fit: contain;
-  width: 50%;
-  max-height: 130px;
-  margin-bottom: 250px;
-  background-color: #ebeeee;
-}
 
 #portfolio-wrapper2 .columns {
   object-fit: contain;
