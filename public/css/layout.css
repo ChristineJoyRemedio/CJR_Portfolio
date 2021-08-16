@@ -492,7 +492,8 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 .portfolio__container {
-  display: grid;
+  display: flex;
+  flex-grow: inherit;
   position: relative;
   height: auto;
   padding: 10px;
