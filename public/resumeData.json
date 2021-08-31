@@ -10,7 +10,7 @@
     "github": "https://github.com/christinejoyremedio",
     "linkedin": "https://www.linkedin.com/in/christinejoyremedio/",
     "project1": "https://cjnetflixclone.web.app",
-    "project2": "https://cjairbnbclone.vercel.app/",
+    "project2": "https://cjlinkedinclone.web.app/",
     "project3": "https://cjamazonclone.vercel.app/",
     "address": {
       "country": "Auckland, New Zealand"
@@ -120,6 +120,12 @@
         "category": "React JS",
         "image": "01.jpg",
         "url": "https://cjnetflixclone.web.app"
+      },
+      {
+        "title": "CJ Linkedin Clone",
+        "category": "React JS",
+        "image": "06.jpg",
+        "url": "https://cjlinkedinclone.web.app/"
       },
       {
         "title": "CJ Airbnb Clone",
